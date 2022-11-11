@@ -1,0 +1,26 @@
+{
+  "name": "@toolz/allow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --transformIgnorePatterns \"node_modules/(?!@toolz/allow)/\" --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GulamMd/JEST_Testing_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GulamMd/JEST_Testing_JS/issues"
+  },
+  "homepage": "https://github.com/GulamMd/JEST_Testing_JS#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "@toolz/is-a-regular-object": "^1.0.1"
+  }
+}
